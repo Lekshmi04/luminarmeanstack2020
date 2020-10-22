@@ -1,0 +1,14 @@
+var num1=10;
+var num2=20;
+add=num1+num2;
+console.log("addition="+add);
+sub=num2-num1;
+console.log("substration="+sub);
+mul=num1*num2;
+console.log("multiplication="+mul);
+div=num2/num1;
+console.log("division="+div);
+mod=num2%num1;
+console.log("modulus=" +mod);
+squ=num1**2;
+console.log("square="+squ);
