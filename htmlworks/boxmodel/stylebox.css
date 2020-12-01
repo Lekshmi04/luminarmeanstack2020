@@ -1,0 +1,23 @@
+
+#top{
+    width:50%;
+    color:red;
+    border-style: dotted;
+    border-color: black;
+    margin-left: 25%;
+    padding-left: 10%;
+}
+
+#bottom{
+    width:50%;
+    color:green;
+    border-style: dotted;
+    border-color: black;
+    margin-left: 25%;
+    padding-left: 10%;
+    margin-top: 30%;
+}
+
+h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+}

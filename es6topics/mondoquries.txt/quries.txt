@@ -1,0 +1,35 @@
+//for listing  all database
+>show dbs
+//for creating a new database
+use luminar;
+//creating collections
+db.createCollection("collectionname");
+//forlisting all collections
+>show collections;
+//studentname,course,age,total
+db.college.insert({studentname:"ajay",course:"bca",age:25,total:145})
+//for inserting more than one document
+db.college.insertMany([{studentname:"ajay",course:"bca",age:25,total:145},{studentname:"danie",course:"bca",age:25,total:150}])
+db.college.insertMany([
+    {},{},{}
+])
+//for fetching all document
+db.college.find()
+//for styling use pretty()
+in mongodb all documents are not unique.....
+//fetching a particular document
+db.college.find({name:john})
+//for sorting with total
+db.college.find().sort({total:1}) for ascending
+db.college.find().sort({total:-1}) for decending
+db.college.find({course:{$ne:"mca"}})$ne=>not equal to
+//for fetching documents less than use$lt and greater than$gt
+less than or equal to $lte and greater than or equal to $gte
+//counting number of records
+db.college.find().count()
+//count no of students rested at bca
+db.college.find(course:"bca").count()
+taking student name only
+db.college.find().forEach(obj=>print(obj.studentname))
+updating a document
+db.college.update({name:"john"},{$set:{total:165}})

@@ -1,0 +1,21 @@
+h1{
+    color:red;
+}
+body{
+    background-color: brown;
+}
+#one{
+    color:yellowgreen;
+}
+div{
+    border-style: dashed;
+    border-color: tomato;
+}
+#second{
+    border-style: dashed;
+    border-color: thistle;
+}
+.third{
+    border-style: dashed;
+    border-color: turquoise;
+}
